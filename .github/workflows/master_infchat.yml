@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'infChat'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A8CC3C19166E45899BCD6D67108CD49F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6A6B992DF5B34324978FDD7ED4A394B1 }}
           package: .
