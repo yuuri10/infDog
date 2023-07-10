@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+#bo{
+    background-color: darksalmon;
+}
+
+.button {
+    left: calc(50% - 100px);
+  }
+  .button[class^="fa"]:before,
+  .button[class*=" fa-"]:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    color: #ff1a1a;
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+#counter{
+    font-size: 15pt;
+    vertical-align: 15px;
+    
+}
+
+#btnAdd{
+    width: 3%;
+}
+#candy{
+  background-image: url("../img/color.jpg");
+}
+body{
+  background-image: url("../img/color.jpg");
+}
+#bunya{
+  margin-left: 200px;
+  margin-top: 50px;
+}
+#music{
+ 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#movie{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#youtube{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#divination{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#karaoke{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#alcohol{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#money{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#global{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#beauty{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#sports{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#feature{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#fashion{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#remote-video-area{
+ margin-left: 200px;
+  }
+  #remote-audio-area{
+    margin-left: 200px;
+  }
+  #remote-text-area{
+    margin-left: 30px;
+    border: solid;
+    height: 300px;
+    width: 200px;
+    overflow-y:scroll;
+  }
+  #my-text-area{
+    border: solid;
+    height: 300px;
+    width: 200px;
+    overflow-y:scroll;
+  }
+  #join{
+    text-align: center;
+  }
+  #write{
+    margin-right: 5px;
+
+  }
+
